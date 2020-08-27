@@ -128,22 +128,24 @@ h2 span {
   background-color: rgba(255, 255, 255, 0.4);
   background-blend-mode: lighten;
   width: 100%;
+  margin: 0 auto;
 }
 
 .top .container {
   padding-top: 267px;
   max-width: 100%;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 991px) {
   .top .container {
-    width: 800px;
+    width: 730px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .top .container {
-    width: 600px;
+    width: 500px;
   }
 }
 
@@ -548,13 +550,6 @@ h2 span {
 .accordion {
   height: 700px;
   background-color: #EFEFEF;
-}
-
-@media screen and (max-width: 575px) {
-  .accordion {
-    margin-right: 20px;
-    margin-left: 20px;
-  }
 }
 
 .accordion .accordion-wrapper {
@@ -1051,6 +1046,7 @@ footer .copyright {
   align-items: center;
 }
 
+navのtoggle開始
 .hiraku-open-btn {
   position: absolute;
   top: 40%;
